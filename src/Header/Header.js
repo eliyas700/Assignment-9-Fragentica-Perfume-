@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Images/logo.png";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between bg-[#a29bfe] px-4 items-center py-2">
+    <nav className="flex justify-between bg-[#2e86de] px-4 items-center py-4">
       <div>
         <Link to="/">
-          <img width={"70px"} src={logo} alt="" />
+          <img
+            width={"190px"}
+            src="https://www.fragrantica.com/ndimg/fragrantica-logo-tagline-svg.svg"
+            alt=""
+          />
         </Link>
       </div>
       <ul className="flex">
