@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Eli Cutlac",
+      "comment": "WOW! this smells amazing. very similar to marc jacobs perfect intense but without the pungent wee smell 🤢 so addictive I cant stop sniffing it! need this in my collection immediately.",
+      "img": "/src/Images/client (5).jpg","rating":4
+    },
+    {
+      "id": 2,
+      "name": "Ashley Hales",
+      "comment": "A very nice scent. very fresh and clean. reminds me of cologne or aftershave. probably the best chance flanker. good to wear on a hot day in the summer or spring.",
+      "img": "/src/Images/client (4).jpg","rating":4.7
+    },
+    {
+      "id": 3,
+      "name": "Jamila Banu",
+      "comment": "supreme narcissus, a dream in golden green plasticine - vibrant sunshine, smooth, at once buttered and powdered. as the review below states it suggests the texture of fine suede, my guess perhaps is the orris working magic. slow smudges of guaiac wood brown and ground this solar pleasure into pasture, dirtying the pristine yellow whites. fairly subtle, but doesn't need to shout to be heard..",
+      "img": "/src/Images/client (3).jpg","rating":4.9
+    },
+    {
+      "id": 4,
+      "name": "Kopila Khatun",
+      "comment": "This is my everyday scent for work (I work at in a hospital so I can’t wear anything too aggressive). It sits pretty close to the skin with mild projection. But if the perfume formulation feels a bit too synthetic or alcohol-y I would HIGHLY HIGHLY recommend you try the fragrance oil roller ball.",
+      "img": "/src/Images/client (2).jpg","rating":4.5
+    },
+    {
+      "id": 5,
+      "name": "Rownda Rousey",
+      "comment": "This smells so comforting, very vintage but it's so pretty. It's a happy upbeat scent. Powdery rose, sometimes it has a hint of fresh laundry too, but overall maybe because of the lilac or musk, there's a vintage lipstick scent base in this that I absolutely love. Transports you to the 80s or 90s, so Im surprised this was from 1947. I wish I could buy a fresh new bottle of this",
+      "img": "/src/Images/client (1).jpg","rating":4.4
+    },
+    {
+      "id": 6,
+      "name": "Eli Cutlac",
+      "comment": "Lovely scent, sweet and fresh best for summer weeked. Pear is dominant but overall looklike litchee. I really love it.",
+      "img": "/src/Images/client (6).jpg","rating":4.7
+    }
+  ]
