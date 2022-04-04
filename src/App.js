@@ -1,6 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Example from "./Components/Blogs/Example";
+import BdOffice from "./Components/Contact/BdOffice";
+import Contact from "./Components/Contact/Contact";
+import UsOffice from "./Components/Contact/UsOffice";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Header from "./Components/Header/Header";
 import HomePage from "./Components/HomePage/HomePage";
@@ -16,6 +19,10 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/blogs" element={<Example />} />
+        <Route path="/contact" element={<Contact />}>
+          <Route path="bd-office" element={<BdOffice />}></Route>
+          <Route path="us-office" element={<UsOffice />}></Route>
+        </Route>
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>
