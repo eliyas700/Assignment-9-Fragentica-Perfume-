@@ -1,33 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
     <nav className="flex justify-between bg-[#2e86de] px-4 items-center py-4">
       <div>
-        <Link to="/">
+        <CustomLink to="/">
           <img
             width={"190px"}
             src="https://www.fragrantica.com/ndimg/fragrantica-logo-tagline-svg.svg"
             alt=""
           />
-        </Link>
+        </CustomLink>
       </div>
       <ul className="flex">
-        <li className="mr-5 text-lg font-semibold">
-          <Link to="/">HOME</Link>
+        <li className="mr-5 text-lg ">
+          <CustomLink to="/">HOME</CustomLink>
         </li>
-        <li className="mr-5 text-lg font-semibold">
-          <Link to="/reviews">REVIEWS</Link>
+        <li className="mr-5 text-lg ">
+          <CustomLink to="/reviews">REVIEWS</CustomLink>
         </li>
-        <li className="mr-5 text-lg font-semibold">
-          <Link to="/dashboard">DASHBOARD</Link>
+        <li className="mr-5 text-lg ">
+          <CustomLink to="/dashboard">DASHBOARD</CustomLink>
         </li>
-        <li className="mr-5 text-lg font-semibold">
-          <Link to="/blogs">BLOGS</Link>
+        <li className="mr-5 text-lg ">
+          <CustomLink to="/blogs">BLOGS</CustomLink>
         </li>
-        <li className="mr-5 text-lg font-semibold">
-          <Link to="/contact">CONTACT US</Link>
+        <li className="mr-5 text-lg ">
+          <CustomLink to="/contact">CONTACT US</CustomLink>
         </li>
       </ul>
     </nav>
