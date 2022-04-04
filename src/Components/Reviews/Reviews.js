@@ -1,6 +1,6 @@
 import React from "react";
 import useReviews from "../../Hooks/useReviews";
-import MiniReview from "../MiniReview/MiniReview";
+
 import ReviewItem from "../ReviewItem/ReviewItem";
 
 const Reviews = () => {
