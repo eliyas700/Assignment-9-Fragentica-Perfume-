@@ -15,18 +15,17 @@ import {
 import useDashboard from "../../Hooks/useDashboard";
 const Dashboard = () => {
   const [dash, setDash] = useDashboard();
-  console.log(dash);
   return (
-    <div>
+    <div className="my-6">
       <h2 className="text-4xl font-mono font-bold my-9 text-[#8884d8]">
         Monthly Business Analysis
       </h2>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-10">
-        <div className="overflow-x-scroll">
+        <div className="overflow-x-scroll   ">
           <h1 className="text-2xl font-semibold font-serif text-center text-[#8884d8] my-5">
             Month Wise Sell
           </h1>
-          <LineChart width={400} height={400} data={dash}>
+          <LineChart width={600} height={400} data={dash}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
             <XAxis dataKey="month" />
@@ -34,13 +33,13 @@ const Dashboard = () => {
             <Tooltip />
           </LineChart>
         </div>
-        <div>
+        <div className="overflow-x-scroll   ">
           <h4 className="text-2xl font-semibold font-serif text-center text-[#8884d8] my-5">
             Investment <span className="text-orange-600">VS</span>
             <span className="text-[#82ca9d]">Revenue</span>
           </h4>
           <AreaChart
-            width={530}
+            width={600}
             height={400}
             data={dash}
             margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
@@ -88,7 +87,7 @@ const Dashboard = () => {
             />
           </AreaChart>
         </div>
-        <div>
+        <div className="overflow-x-scroll   ">
           <h4 className="text-2xl font-semibold font-serif text-center text-[#8884d8] my-5">
             Investment <span className="text-orange-400">VS </span>{" "}
             <span className="text-[#413ea0]">Sell</span>
@@ -96,7 +95,7 @@ const Dashboard = () => {
             <span className="text-[#ff7300]">Revenue</span>
           </h4>
 
-          <ComposedChart width={530} height={400} data={dash}>
+          <ComposedChart width={600} height={400} data={dash}>
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />

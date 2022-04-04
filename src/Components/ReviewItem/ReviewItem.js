@@ -5,7 +5,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ReviewItem = ({ item }) => {
   const { name, img, comment, rating } = item;
-  console.log(item);
+
   return (
     <div className="mx-auto">
       <div className="testimonial-card">
