@@ -5,6 +5,7 @@ import BdOffice from "./Components/Contact/BdOffice";
 import Contact from "./Components/Contact/Contact";
 import UsOffice from "./Components/Contact/UsOffice";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import HomePage from "./Components/HomePage/HomePage";
 import Reviews from "./Components/Reviews/Reviews";
@@ -25,6 +26,7 @@ function App() {
         </Route>
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
