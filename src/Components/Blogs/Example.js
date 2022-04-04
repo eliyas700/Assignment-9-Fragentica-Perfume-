@@ -13,7 +13,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 
 export default function Example() {
   return (
-    <Accordion>
+    <Accordion className="">
       <h1 className="text-3xl font-semibold font-serif text-slate-800 my-8">
         Let's Read The Blogs
       </h1>

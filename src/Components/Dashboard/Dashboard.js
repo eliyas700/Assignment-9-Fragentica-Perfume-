@@ -21,12 +21,12 @@ const Dashboard = () => {
       <h2 className="text-4xl font-mono font-bold my-9 text-[#8884d8]">
         Monthly Business Analysis
       </h2>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
-        <div>
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-10">
+        <div className="overflow-x-scroll">
           <h1 className="text-2xl font-semibold font-serif text-center text-[#8884d8] my-5">
             Month Wise Sell
           </h1>
-          <LineChart width={530} height={400} data={dash}>
+          <LineChart width={400} height={400} data={dash}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
             <XAxis dataKey="month" />

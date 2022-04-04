@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-center bg-gray-900 text-white">
+      <footer className="text-center  bg-gray-900 text-white">
         <div className=" py-4">
           <div className="flex justify-center">
             <a
