@@ -1,10 +1,10 @@
 # Let's Talk About My Project Fragrantica Perfume
 
-You Visit My Shop [EZ-ELI Scents](https://ez-eli-scents-eliyas.netlify.app/).
+You Visit My Shop [Fragrantica Perfume](https://fragrantic-perfume-by-eliyas.netlify.app/).
 
 Code Link: [Git-Hub](https://github.com/programming-hero-web-course-4/product-analysis-website-eliyas700)
 
-Live-Site-Link:[https://ez-eli-scents-eliyas.netlify.app/](https://ez-eli-scents-eliyas.netlify.app/)
+Live-Site-Link:[https://fragrantic-perfume-by-eliyas.netlify.app/](https://fragrantic-perfume-by-eliyas.netlify.app/)
 
 Author: [Eliyas Hossain](https://www.linkedin.com/in/eliyas-hossain-55867b82/)
 
