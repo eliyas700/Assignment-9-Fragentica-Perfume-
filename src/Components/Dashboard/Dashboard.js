@@ -25,6 +25,7 @@ const Dashboard = () => {
           <h1 className="text-2xl font-semibold font-serif text-center text-[#8884d8] my-5">
             Month Wise Sell
           </h1>
+
           <LineChart width={600} height={400} data={dash}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -38,6 +39,7 @@ const Dashboard = () => {
             Investment <span className="text-orange-600">VS</span>
             <span className="text-[#82ca9d]">Revenue</span>
           </h4>
+
           <AreaChart
             width={600}
             height={400}

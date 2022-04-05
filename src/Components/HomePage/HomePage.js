@@ -16,12 +16,16 @@ const HomePage = () => {
             <span className="md:text-5xl sm:text-xl font-serif font-bold ">
               Feel Extraordinary
             </span>
-            <p className="md:text-4xl sm:text-lg font-bold font-serif">with</p>
+            <p className="md:text-4xl sm:text-xl font-bold font-serif">with</p>
             <img
               className="mx-auto"
               src="https://fimgs.net/mdimg/dizajneri/o.83.jpg"
               alt=""
             />
+            <p className=" md:text-3xl text-sm font-serif font-semibold">
+              Love for tradition and a natural yearning for the
+              contemporary,Feel fresh and stay Energetic .
+            </p>
             <button className="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
               Explore Now
             </button>

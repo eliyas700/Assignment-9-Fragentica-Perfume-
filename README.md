@@ -11,7 +11,7 @@ Author: [Eliyas Hossain](https://www.linkedin.com/in/eliyas-hossain-55867b82/)
 # Learn More About My Project:
 
 - In Homepage you could see a photo of the product and a button name Explore Now ,and at the end you could see 3 Reviews and a button name See More Reviews by Clicking that button you could All reviews.
-- In Reviews Section You will All The reviews giving by Customres included their name,photo,Comment,Rating.
+- In Reviews Section You will All The reviews giving by Customers included their name,photo,Comment,Rating.
 - On Dashboard You will see 3 Chart of Business Analysis
 - On Blog Section You will See a Accordion of 3 questions and Answers.
 - On Contact Us You will See two button for To office address ,here i used Nested Route of React Routers

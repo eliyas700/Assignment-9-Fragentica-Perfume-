@@ -1,7 +1,11 @@
 import React from "react";
 import "./ReviewItem.css";
 import Rating from "react-rating";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStar,
+  faQuoteRight,
+  faQuoteLeftAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ReviewItem = ({ item }) => {
   const { name, img, comment, rating } = item;
@@ -9,9 +13,11 @@ const ReviewItem = ({ item }) => {
   return (
     <div className="mx-auto">
       <div className="testimonial-card">
-        <div className="text">
-          {comment.slice(0, 190)}
-          <i className="fas fa-quote-right quote"></i>
+        <div className="text md:text-base sm:text-sm " title={comment}>
+          <FontAwesomeIcon className="mr-1" icon={faQuoteLeftAlt} />
+          {comment.slice(0, 190) + "...."}
+
+          <FontAwesomeIcon icon={faQuoteRight} />
         </div>
 
         <div className="footer">
